@@ -10,7 +10,7 @@ import 'package:flutter/widgets.dart';
 import 'package:myapp/pages/home_page/reusable_widget/price_card.dart';
 import 'package:myapp/pages/home_page/reusable_widget/product_card.dart';
 import 'package:myapp/pages/home_page/search_bar.dart';
-import 'package:myapp/pages/widgets/app_bar/app_bar.dart';
+import 'package:myapp/pages/home_page/app_bar/app_bar.dart';
 
 class HomePage extends StatelessWidget {
    const HomePage({super.key});

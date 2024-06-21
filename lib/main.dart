@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:myapp/pages/home_page/categorie_page/categorie_page.dart';
+import 'package:myapp/pages/categorie_page/categorie_page.dart';
 // import 'package:myapp/pages/home_page/home_page.dart';
 
 void main() {

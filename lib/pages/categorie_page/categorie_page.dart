@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:myapp/pages/widgets/app_bar/categories_card.dart';
-import 'package:myapp/pages/widgets/app_bar/shared/notification.dart';
+import 'package:myapp/pages/categorie_page/selected_iteam.dart';
+import 'package:myapp/pages/categorie_page/widget/categories_card.dart';
+import 'package:myapp/pages/categorie_page/reusable/notification.dart';
 
 class CategoriePage extends StatelessWidget {
   const CategoriePage ({super.key});
@@ -88,7 +89,15 @@ class CategoriePage extends StatelessWidget {
                     ],
                   )
                 ],
-              )
+              ),
+              SizedBox(height: 10,),
+              Text("Selected Items",style: TextStyle(
+                fontSize: 18,
+                fontWeight: FontWeight.w500,
+              ),),
+              SizedBox(height: 10,),
+              SelectedIteam(),
+
             ],
           ),
         ),
